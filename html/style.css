@@ -1,0 +1,98 @@
+/* this document contains the styling for AGORA */
+
+
+/* General Formatting Section */
+div { 
+    background-color: lightblue;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-left: 5px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 10px;
+    max-width: 1000px;
+}
+div.discrete { 
+    background-color: lightblue;
+    color: black;
+    border-style: none;
+    padding-left: 5px;
+    margin: none;
+    position: initial;
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.notificationText {
+    color: red;
+}
+
+h1, h2 {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+imput.submit {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+a:link, a:visited {
+    font-weight: bold;
+    color: rgb(46, 46, 255);
+    text-decoration: none;
+    display: inline-block;
+  }
+
+a:hover, a:active {
+    color: darkblue;
+}
+
+/* Header Navbar Section */
+
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.navBar {
+    float: left;
+}
+
+li.navBar a.navBar {
+    display: block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+/* Usergroups / Popup forms section */
+div.hidden{
+    display:none;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Fireteam List */
+ul.fireteam{
+    list-style-type: none;
+}
